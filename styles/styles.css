@@ -819,8 +819,10 @@ section {
   }
 
   .contact-content-con .right-contact .i-c-2 :last-child {
-    margin-left: 0;
     margin-top: 1.5rem;
+  }
+  #img-contact{
+    margin-left: 0;
   }
 
   .contact-content-con .right-contact {
@@ -830,6 +832,10 @@ section {
   .main-title h2 .bg-text {
     font-size: 5.5rem;
   }
+  .contact-icon{
+    justify-content: center;
+  }
+
 }
 @media screen and (max-width: 1250px) {
   .blogs {
@@ -872,9 +878,7 @@ section {
     font-size: 4.5rem;
   }
 
-  .image {
-    margin-top: 30px;
-  }
+  
 }
 @media screen and (max-width: 970px) {
   .container {
